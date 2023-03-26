@@ -370,7 +370,8 @@ class Generator(nn.Module):
             size,
             style_dim,
             n_mlp,
-            channel_multiplier=2,
+            # channel_multiplier=2,
+            channel_multiplier=1,
             blur_kernel=[1, 3, 3, 1],
             lr_mlp=0.01
     ):
