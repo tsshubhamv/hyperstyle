@@ -14,6 +14,8 @@ dataset_paths = {
 	'afhq_wild_train': '',
 	'afhq_wild_test': '',
 
+	'smile_256_train': 'data/smile_256/train',
+    'smile_256_test': 'data/smile_256/test'
 }
 
 model_paths = {
@@ -41,7 +43,8 @@ model_paths = {
 	'stylegan_pixar': 'pretrained_models/pixar.pt',
 	'stylegan_toonify': 'pretrained_models/ffhq_cartoon_blended.pt',
 	'stylegan_sketch': 'pretrained_models/sketch.pt',
-	'stylegan_disney': 'pretrained_models/disney_princess.pt'
+	'stylegan_disney': 'pretrained_models/disney_princess.pt',
+    'sg2-ada-smile_256': 'artifacts/sg2-ada-smile_256.pt'
 }
 
 edit_paths = {

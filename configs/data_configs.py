@@ -32,5 +32,12 @@ DATASETS = {
 		'train_target_root': dataset_paths['afhq_wild_train'],
 		'test_source_root': dataset_paths['afhq_wild_test'],
 		'test_target_root': dataset_paths['afhq_wild_test']
+	},
+    'sg2-ada-smile_256': {
+		'transforms': transforms_config.NoFlipTransforms,
+		'train_source_root': dataset_paths['smile_256_train'],
+		'train_target_root': dataset_paths['smile_256_train'],
+		'test_source_root': dataset_paths['smile_256_test'],
+		'test_target_root': dataset_paths['smile_256_test']
 	}
 }
