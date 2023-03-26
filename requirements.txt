@@ -1,6 +1,5 @@
 ninja==1.10.0
 setuptools==46.4.0
-sqlite
 tk==8.6.8
 zlib
 scipy==1.4.1
