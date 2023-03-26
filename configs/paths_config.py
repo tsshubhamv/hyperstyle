@@ -21,7 +21,7 @@ dataset_paths = {
 model_paths = {
 	# models for backbones and losses
 	'ir_se50': 'pretrained_models/model_ir_se50.pth',
-	'resnet34': 'pretrained_models/resnet34-333f7ec4.pth',
+	'resnet34': 'pretrained_models/resnet34-b627a593.pth',
 	'moco': 'pretrained_models/moco_v2_800ep_pretrain.pt',
 	# stylegan2 generators
 	'stylegan_ffhq': 'pretrained_models/stylegan2-ffhq-config-f.pt',
