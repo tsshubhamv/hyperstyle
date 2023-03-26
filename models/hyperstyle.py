@@ -61,7 +61,7 @@ class HyperStyle(nn.Module):
             if self.opts.load_w_encoder:
                 self.w_encoder = self.__get_pretrained_w_encoder()
 
-    def forward(self, x, resize=True, input_code=False, randomize_noise=True, return_latents=False,
+    def forward(self, x, resize=True, input_code=True, randomize_noise=True, return_latents=False,
                 return_weight_deltas_and_codes=False, weights_deltas=None, y_hat=None, codes=None):
 
         if input_code:
